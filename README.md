@@ -1,3 +1,2 @@
-Practice
-(๑•̀ㅂ•́)و✧
-٩(๑•̀ω•́๑)۶
+# LeetCode 
+Using C++ and sql to solve problem
