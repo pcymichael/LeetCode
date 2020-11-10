@@ -14,3 +14,19 @@ public:
         return res[rowIndex];
     }
 };
+
+/* 一維作法
+class Solution {
+public:
+	vector<int> getRow(int numRows) {
+		vector<int> dp;
+		dp.resize(numRows + 1);
+		for (int i = 0; i <= numRows; i++) {
+			dp[i] = 1;
+			for (int j = i - 1; j > 0; j--)
+				dp[j] = dp[j] + dp[j - 1];
+		}
+		return dp;
+	}
+};
+*/
